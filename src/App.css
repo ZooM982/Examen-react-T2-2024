@@ -1,38 +1,139 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body{
+  background-color: #2d2d2d;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav{
+  background-color: #3b3c3d;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar img{
+  width: 80px;
+  height: auto;
+}
+.navbar .navbar-brand{
+  font-size: 50px;
+  color: white;
+}
+
+.navbar p{
+  text-align: right;
+  margin-left: 80%;
+  border-right: 1px solid gray;
+  width: 70px;
+  text-align: left;
+}
+
+.navbar p a{
+  text-decoration: none;
+  color: white;
+}
+
+.registation-body{
+  margin: 70px 40px;
+  background-color: #3b3c3d;
+  border: 1px solid #6363ec;
+  border-radius: 20px;
+  padding: 30px;
+}
+.registation-body button {
+  border-radius: 0px;
+}
+.registation-body input{
+  border-radius: 0px;
+  border: none;
+  border-bottom: 2px solid gray;
+  color: white;
+  background-color: inherit;
+  margin: 20px;
+}
+
+.registation-body input::placeholder{
+  color: white;
+  text-align: left;
+}
+.registation-body label{
+  width: 55%;
+  margin-left: -120px;
+}
+
+.registation-body h3{
+  text-align: center;
+  color: aqua;
+  margin: 20px 0;
+}
+
+.registation-body .register{
+  text-align: center;
+  margin: 50px 0;
+  color: gray;
+}
+.btn-twitter{
+  background-color: #7fccff;
+  height: 40px;
+  width: 150px;
+  color: white;
+  border-radius: 10px !important;
+}
+.btn-facebook{
+  background-color: #6363ec;
+  height: 40px;
+  width: 150px;
+  color: white;
+  border-radius: 10px !important;
+}
+.btn-google{
+  background-color: red;
+  height: 40px;
+  width: 150px;
+  color: white;
+  border-radius: 10px !important;
+}
+.btn-continu{
+  background-color: #7fccff;
+  height: 40px;
+  width: 120px;
+  color: white;
+}
+
+.illustrator-body{
+  margin-top: 70px;
+  padding: 20px;
+}
+
+.illustrator-body h3{
+  color: aqua;
+}
+
+.illustrator-body img{
+  width: 80%;
+  margin-top: 40px;
+  height: auto;
+  margin-left: 30px;
+}
+
+#footer h2{
+  color: #f5bf5c;
+}
+#footer a{
+  text-decoration: none;
+  color: white;
+}
+#footer img{
+  margin-top: -10px;
+  width: 50px;
+  height: auto;
+}
+
+#footer select{
+  width: 100px;
+  background-color: inherit;
+  color: aqua;
+  height: 30px;
+}
+#footer .social-icons {
+  margin: 30px 0;
+  height: auto;
+  font-size: 30px;
+  color: #7fccff;
 }

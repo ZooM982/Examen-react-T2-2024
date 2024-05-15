@@ -1,9 +1,14 @@
 import './App.css';
+import Footer from './component/Footer';
+import NavBar from './component/Navbar';
+import Registration from './component/Registration';
 
 function App() {
   return (
     <div className="App">
-      <h3>Le code sera là</h3>
+      <NavBar />
+      <Registration />
+      <Footer />
     </div>
   );
 }
